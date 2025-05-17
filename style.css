@@ -5,10 +5,10 @@ html{
 
 
 body {
-    font-family: 'Arial', sans-serif;
-    background: url('img/fon.png') no-repeat center center fixed;
-    background-size: cover;
-    color: #ffffff;
+    font-family: 'Arial', sans-serif; /*изменнеие шрифта*/
+    background: url('img/fon.png') no-repeat center center fixed;/*установление фона на ВЕСЬ сайт*/
+    background-size: cover; /*фон полностью аокрывает сайт*/
+    color: #ffffff; /*цвет текстов body*/
 }
 
 .header { /*ПЕРВЫЙ БЛОК*/
@@ -79,7 +79,7 @@ body {
 
 
 .allProducts h2 {
-    margin-bottom: 40px ;
+    margin-bottom: 40px ; /*отступ текста от картинки*/
 }
 
 
@@ -118,23 +118,22 @@ body {
 }
 
 .about {
-    padding: 60px 20px;
-    text-align: center;
+    padding: 60px 20px;/*отступы с вверху низа, право лева */
+    text-align: center; /*текст по центру*/
 }
 
 .about h2 {
-    margin-bottom: 20px;
+    margin-bottom: 20px;/*между блоками пространсво 20px*/
 }
 
 .footer {
-    padding: 30px 20px;
-    text-align: center;
+    padding: 30px 20px; /*отступы с вверху низа, право лева */
+    text-align: center;/*текст по центру*/
 }
 
-.footer .socials a {
+.socials a {
     color: #6A3BFF;
-    text-decoration: none;
-    margin: 0 10px;
+    text-decoration: none;/*убирпет подчеркивание у ссылок*/
 }
 
 
