@@ -136,21 +136,18 @@ body {
     text-decoration: none;/*убирпет подчеркивание у ссылок*/
 }
 
+.arrow {
+    position: fixed; /* стрелка всегда в одном месте экрана*/
+    top: 20px;
+    right: 20px;
+    font-size: 24px;/*размер шрифта*/
+    color: white;
+    cursor: pointer; /*при наведение на стрелку, курсор привращается в руку*/
+    opacity: 0;/*делает стрелку прозрачной*/
+    transition: opacity 0.3s; /*делает появлениеи и счезновение плавным*/
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.arrow.visible {
+    opacity: 0.7;
+}
 
